@@ -1,0 +1,15 @@
+baseURL = "/"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+
+[Params.logo]
+  title = "SecVerse"
+  subtitle = "All things security in the universe."
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "categories", "taglist"]

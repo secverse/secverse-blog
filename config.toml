@@ -1,15 +1,20 @@
 baseURL = "/"
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
-theme = "mainroad"
+title = "SecVerse"
+paginate = 10 # Number of posts per page
+theme = "newsroom"
 
-[Params.logo]
-  title = "SecVerse"
-  subtitle = "All things security in the universe."
-
-[Params.sidebar]
-  home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist"]
+[markup]
+  [markup.goldmark.renderer]
+    hardWraps = false
+    unsafe = false # change to true to enable inclusion of rawHTML and math functions
+    xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    tabWidth = 2

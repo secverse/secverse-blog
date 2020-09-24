@@ -4,6 +4,7 @@ date: 2020-09-23T12:25:13+02:00
 draft: false
 tags: ["test", "welcome"]
 categories: ["hello", "welcome"]
+image: earth-nasa-unsplash.jpg
 ---
 This is the **SecVerse** group reporting, hope we can share some of your knowledge with the universe!
 

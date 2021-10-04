@@ -11,6 +11,8 @@ tags: ["Threat Detection"]
 > Threat detection requires both a human element, as well as a technical element. The human element includes security analysts who analyze trends, patterns in data, behaviors, and reports, as well as those who can determine if anomalous data indicates a potential threat or a false alarm. - Rapid7[^0]
 
 # Activities involved
+_Paraphrasing what Alex has written here[^1]_, they are:
+
 * Rapidly deploying **detection controls**
 
 * Proactively identifying **threats** in the environment
@@ -58,3 +60,4 @@ Detection Development Standards (organizational specific)
 * Photo by [Franki Chamaki](https://unsplash.com/@franki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 [^0]: https://www.rapid7.com/fundamentals/threat-detection/
+[^1]: https://ateixei.medium.com/diy-in-house-threat-detection-engineering-73643a0b06f

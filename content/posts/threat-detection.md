@@ -2,7 +2,7 @@
 title: "Threat Detection"
 date: 2020-09-27T21:04:35+02:00
 image: franki-chamaki-On78_6k2hI4-unsplash.jpg
-draft: true
+draft: false
 tags: ["Threat Detection"]
 ---
 # What is **Threat Detection**?
